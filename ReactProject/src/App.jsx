@@ -10,11 +10,9 @@ export function App() {
   return (
     
     <div className='App'>
-      <TwitterFollowCard isFollowing={false} >Alexander</TwitterFollowCard>
-      <TwitterFollowCard isFollowing={true} userName={name}>{name2}</TwitterFollowCard>
-      <button onClick={() => {
-         setName('Ale');
-         setName2('Jedi Alejandra');}}>skip</button>
+      <TwitterFollowCard initialIsFollowing={false} >Alexander</TwitterFollowCard>
+      <TwitterFollowCard initialIsFollowing={true} userName='JediLuca'>Heidi Alejandra</TwitterFollowCard>
+      
     </div>
 
 
